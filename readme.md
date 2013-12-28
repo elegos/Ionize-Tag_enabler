@@ -6,7 +6,7 @@ This Ionize module allows the website to render a theme's custom view for tags. 
 
 Ionize's \<ion:tag:url /> points to [/LANG]/tag/[TAG_NAME], which will render the default view (home page). This module intercepts this route and shows the theme's view.
 
-It's a very simple module with no backend, but works, at least with the following tested tags (others may work as well):
+It's a very simple module with no backend, but it works, at least with the following tested tags (others may work as well):
 
 - \<ion:article>
 - \<ion:home_url />

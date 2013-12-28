@@ -43,7 +43,7 @@ class Tag_Enabler extends Base_Controller
 		// HACK to display the custom title
 		TagManager::$context->register("page",
 			array('id_subnav' => 0,
-				'meta_title' => 'Tag - ' . urldecode($uri[$index+1]))
+				'meta_title' => 'Tag - ' . $tag)
 			);
 		TagManager::render('tag');
 	}
