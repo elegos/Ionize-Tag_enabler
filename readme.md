@@ -8,13 +8,13 @@ Ionize's <tag:url /> points to [/LANG]/tag/[TAG_NAME], which will render the def
 
 It's a very simple module with no backend, but works, at least with the following tested tags (others may work as well):
 
-- <ion:article>
-- <ion:home_url />
-- <ion:media>
-- <ion:meta_title />
-- <ion:navigation />
-- <ion:tag>
-- <ion:theme_url />
+- \<ion:article>
+- \<ion:home_url />
+- \<ion:media>
+- \<ion:meta_title />
+- \<ion:navigation />
+- \<ion:tag>
+- \<ion:theme_url />
 
 LICENCE
 *******
